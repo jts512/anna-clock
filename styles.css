@@ -263,7 +263,19 @@ h1 {
   flex-wrap: wrap;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 980px) {
+  .brain-badge {
+    position: static;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 12px;
+  }
+
+  .brain-mascot {
+    width: 74px;
+    height: 74px;
+  }
+
   h1 {
     font-size: 3.55rem;
   }
@@ -280,18 +292,6 @@ h1 {
 @media (max-width: 760px) {
   body {
     align-items: start;
-  }
-
-  .brain-badge {
-    position: static;
-    width: 76px;
-    height: 76px;
-    margin: 0 auto 12px;
-  }
-
-  .brain-mascot {
-    width: 74px;
-    height: 74px;
   }
 
   .countdown-header {
@@ -372,5 +372,26 @@ h1 {
   .label {
     font-size: 0.68rem;
     letter-spacing: 0.1em;
+  }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  body {
+    padding-block: 14px;
+  }
+
+  .brain-badge {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 8px;
+  }
+
+  .brain-mascot {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero {
+    margin-bottom: 14px;
   }
 }
