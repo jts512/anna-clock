@@ -1,5 +1,5 @@
 const programStart = new Date("2026-05-17T00:00:00");
-const programEnd = new Date("2028-05-17T00:00:00");
+const programEnd = new Date("2028-03-17T00:00:00");
 
 const unitMap = {
   years: document.getElementById("years"),
@@ -72,7 +72,7 @@ function updateCountdown() {
     statusText.textContent = "Program complete — Anna is finished!";
     progressValue.textContent = "100%";
     progressFill.style.width = "100%";
-    progressText.textContent = "Completed on May 17, 2028";
+    progressText.textContent = "Completed on March 17, 2028";
     targetText.textContent = "Celebration time!";
     document.querySelector(".progress-bar").setAttribute("aria-valuenow", "100");
     return;
@@ -93,8 +93,8 @@ function updateCountdown() {
   statusText.textContent = "Counting down to graduation";
   progressValue.textContent = `${roundedPercent}%`;
   progressFill.style.width = `${roundedPercent}%`;
-  progressText.textContent = `Started May 17, 2026`;
-  targetText.textContent = `Ends May 17, 2028`;
+  progressText.textContent = "May 2026";
+  targetText.textContent = "March 2028";
   document.querySelector(".progress-bar").setAttribute("aria-valuenow", String(roundedPercent));
 }
 

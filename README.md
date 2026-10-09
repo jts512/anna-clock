@@ -5,7 +5,7 @@ A small, stylized countdown page celebrating Anna finishing her Pathology Assist
 ## Details
 
 - Start date: May 17, 2026
-- End date: May 17, 2028
+- End date: March 17, 2028
 - Countdown includes:
   - Years
   - Months
